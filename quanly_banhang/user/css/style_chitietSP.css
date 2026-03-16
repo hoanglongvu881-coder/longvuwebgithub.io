@@ -1,0 +1,111 @@
+.product-detail {
+  display: flex;
+  gap: 40px;
+  padding: 30px;
+}
+
+.product-images img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+.product-info {
+  max-width: 500px;
+}
+
+.product-info button {
+  padding: 10px 20px;
+  background: #985296;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.product-detail {
+    display: flex;
+    gap: 50px;
+    margin: 40px auto;
+    max-width: 1200px;
+}
+
+
+.product-images {
+    width: 50%;
+    overflow: hidden;
+}
+.main-image img {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.thumb-images {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.thumb-images img {
+    width: 30%;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.thumb-images img:hover {
+    border: 2px solid #6a1b9a;
+}
+
+
+.product-info {
+    width: 50%;
+}
+
+.product-info h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.product-info p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+
+.product-info b {
+    font-size: 19px;
+}
+
+
+.product-info .gia {
+    font-size: 26px;
+    color: red;
+    font-weight: bold;
+}
+
+.giacu_sp {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 20px;
+}
+
+
+.product-info button {
+    margin-top: 25px;
+    padding: 12px 30px;
+    font-size: 18px;
+    background: #8e44ad;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.product-info button:hover {
+    background: #6c3483;
+}
+h2 {
+    text-align: center; 
+    color: #590150;
+}
